@@ -9,4 +9,20 @@
     - Identifica de forma única cada uma das linhas de uma tabela.
     - Pode ser formada apenas por uma coluna ou por combinação de duas ou mais colunas. A informação definida como chave primária de uma tabela não pode ser duplicada dentro desta tabela.
 - Chave estrangeira/Foreign key (FK)
-    - É o campo da tabela FATO que se relaciona com a chave primária da tabela DIMENSÃO.
+    - É o campo da tabela FATO que se relaciona com a chave primária da tabela DIMENSÃO. 
+<br><br>
+- **INNER JOIN**
+    - Retorna apenas os registros que têm correspondência em ambas as tabelas.
+    - Exclui as linhas que não possuem correspondência entre as tabelas.
+- **LEFT JOIN**
+    - Retorna todos os registros da tabela da esquerda (primeira tabela mencionada) e os registros correspondentes da tabela da direita.
+    - Se não houver correspondência, os resultados da tabela da direita serão nulos.
+- **RIGHT JOIN**
+    - Retorna todos os registros da tabela da direita (segunda tabela mencionada) e os registros correspondentes da tabela da esquerda.
+    - Se não houver correspondência, os resultados da tabela da esquerda serão nulos.
+- **FULL JOIN**
+    - Retorna todos os registros quando há uma correspondência em qualquer uma das tabelas.
+    - Combina registros das tabelas à esquerda e à direita, preenchendo com nulos quando não há correspondência.
+- **CROSS JOIN**
+    - Produz o produto cartesiano de ambas as tabelas envolvidas, combinando cada linha de uma tabela com cada linha da outra tabela.
+    - Geralmente resulta em um grande número de linhas e deve ser usado com cuidado.
