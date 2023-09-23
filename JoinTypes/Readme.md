@@ -1,0 +1,12 @@
+- Tabela fato >> Tabela onde os eventos são guardados
+    - **Exemplo: Uma tabela fato pode conter informações sobre vendas, como data da venda, produto vendido, quantidade vendida, preço unitário, e assim por diante.**
+    - Sempre uma tabela enxuta, com data, numeros e valores que normalmente são chaves que nós podemos relacionar com chaves de outra tabela.
+- Tabela dimensoes >> Caracteristicas dos dados.
+    - **Exemplo: Uma tabela dimensão para vendas pode incluir informações sobre produtos (nome, categoria, etc.), clientes (nome, localização, etc.), tempo (dia, mês, ano), etc.**
+- **Para relacionar** uma tabela com uma ou mais tabelas, precisamos **identificar os campos em comuns** entre estas tabelas.
+- Observar os **campos em comum**, que **podem ser nomes, valores, tipos de dados** etc.
+- Chave primária/Primary key (PK)
+    - Identifica de forma única cada uma das linhas de uma tabela.
+    - Pode ser formada apenas por uma coluna ou por combinação de duas ou mais colunas. A informação definida como chave primária de uma tabela não pode ser duplicada dentro desta tabela.
+- Chave estrangeira/Foreign key (FK)
+    - É o campo da tabela FATO que se relaciona com a chave primária da tabela DIMENSÃO.
