@@ -2,10 +2,10 @@
 USE ContosoRetailDW
 
 SELECT TOP 100
-	S.SalesKey
-	,S.DateKey
+	S.SalesKey AS 'S.SalesKey'
+	,S.DateKey AS 'S.DateKey'
 	,C.ChannelKey
-	,S.channelKey
+	,S.channelKey AS 'S.channelKey'
 	,C.ChannelName
 	,C.*
 FROM 
