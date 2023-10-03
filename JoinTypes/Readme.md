@@ -13,21 +13,28 @@
 <br><br> 
 - **INNER JOIN**
     - Retorna apenas os registros que têm correspondência em ambas as tabelas.
-    - Exclui as linhas que não possuem correspondência entre as tabelas.
-      <img width="750" height="400" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/InnerJoin.png"><br><br><br><br>
+    - Exclui as linhas que não possuem correspondência entre as tabelas. <br><br>
+      <img width="750" height="400" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/InnerJoin.png"><br><br><br>
 - **LEFT JOIN**
     - Retorna todos os registros da tabela da esquerda (primeira tabela mencionada) e os registros correspondentes da tabela da direita.
-    - Se não houver correspondência, os resultados da tabela da direita serão nulos.
-    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/LeftJoin.png"><br><br><br><br>
+    - Se não houver correspondência, os resultados da tabela da direita serão nulos. <br><br>
+    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/LeftJoin.png"><br><br><br>
 - **RIGHT JOIN**
     - Retorna todos os registros da tabela da direita (segunda tabela mencionada) e os registros correspondentes da tabela da esquerda.
-    - Se não houver correspondência, os resultados da tabela da esquerda serão nulos.
-    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/RightJoin.png"><br><br><br><br>
+    - Se não houver correspondência, os resultados da tabela da esquerda serão nulos.<br><br>
+    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/RightJoin.png"><br><br><br>
 - **FULL JOIN**
     - Retorna todos os registros quando há uma correspondência em qualquer uma das tabelas.
-    - Combina registros das tabelas à esquerda e à direita, preenchendo com nulos quando não há correspondência.
-    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/FullJoin.png"><br><br><br><br>
+    - Combina registros das tabelas à esquerda e à direita, preenchendo com nulos quando não há correspondência.<br><br>
+    <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/FullJoin.png"><br><br><br>
 - **CROSS JOIN**
     - Produz o produto cartesiano de ambas as tabelas envolvidas, combinando cada linha de uma tabela com cada linha da outra tabela.
-    - Geralmente resulta em um grande número de linhas e deve ser usado com cuidado.
-    <img width="450" height="380" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/CrossJoin.png">
+    - Geralmente resulta em um grande número de linhas e deve ser usado com cuidado.<br><br>
+    <img width="450" height="380" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/CrossJoin.png"><br><br><br>
+
+- **Múltiplos joins em uma única query**     
+   - Embora mais joins possam parecer mais custosos em termos de desempenho, em muitos casos, o otimizador de consultas do banco de dados pode otimizar a consulta para executar de maneira eficiente, especialmente se os índices estiverem bem definidos.
+   - Permite recuperar dados relacionados de diferentes tabelas em uma única consulta. Isso é fundamental para apresentar informações completas e contextualizadas.
+   - Reduz a quantidade de dados transferidos entre o banco de dados e a aplicação, pois apenas uma consulta é executada, minimizando a latência da rede e melhorando o desempenho.<br><br>
+   <img width="750" height="500" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/MultipleJoinsInTheSameQuery01.png"><br><br>
+       <img width="550" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/JoinTypes/results/MultipleJoinsInTheSameQuery02.png">
