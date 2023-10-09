@@ -1,7 +1,4 @@
-
-
 USE ContosoRetailDW
-
 SELECT  
 	EmailAddress
 	,Gender
