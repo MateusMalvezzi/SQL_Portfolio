@@ -1,7 +1,4 @@
-
-
 USE ContosoRetailDW
-
 SELECT
 	EmailAddress
 	,Gender
@@ -15,5 +12,4 @@ WHERE
 	Education = 'High School' 
 	AND NumberChildrenAtHome >= 4 
 	AND NOT MaritalStatus = 'S'
-	
 ORDER BY 2 DESC, 3 DESC, 4 DESC, [Quantidade de carros] DESC
