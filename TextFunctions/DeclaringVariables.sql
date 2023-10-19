@@ -1,0 +1,17 @@
+
+
+DECLARE @USUARIO VARCHAR(30)
+SET @USUARIO = ' MATEUS MALVEZZI '
+
+SELECT @USUARIO AS NAME
+
+---------------------------------------
+USE ContosoRetailDW
+
+DECLARE @PROD INT
+SET @PROD = 782
+
+SELECT TOP 50
+	*
+FROM FactOnlineSales
+WHERE ProductKey = @PROD
