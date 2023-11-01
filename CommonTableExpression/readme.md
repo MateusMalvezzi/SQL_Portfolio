@@ -1,1 +1,10 @@
-olá
+- **CTE (Common Table Expression)**
+    - É uma estrutura temporária que permite criar consultas nomeadas e reutilizáveis em SQL. Uma CTE é definida usando a cláusula WITH e pode ser referenciada na consulta principal como se fosse uma tabela ou subconsulta. As CTEs são frequentemente usadas para simplificar consultas complexas, facilitar a manutenção do código e melhorar a legibilidade.
+    - O benefício da utilização de uma CTE é que ela torna o código SQL mais legível, facilita a reutilização de consultas, simplifica a manutenção do código e, em algumas situações, pode até melhorar o desempenho das consultas, uma vez que permite a otimização do plano de execução. <br><br>
+    <img width="890" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/CommonTableExpression/results/CTE.png"><br><br><br>
+    <img width="890" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/CommonTableExpression/results/CTE2.1.png"><br><br><br>
+- **Diferença entre Subquery CTE**
+    - Subquery (Subconsulta): Uma subconsulta é uma consulta aninhada dentro de uma consulta principal. Ela é usada para recuperar dados com base em resultados de outra consulta. As subconsultas podem ser usadas em várias partes de uma consulta, como uma condição WHERE ou uma cláusula FROM. Elas são úteis quando você precisa de resultados intermediários em uma consulta.
+    - CTE (Common Table Expression): Já mencionada acima, uma CTE é uma estrutura nomeada que permite criar consultas reutilizáveis. As CTEs são definidas usando a cláusula WITH e são frequentemente usadas para simplificar consultas complexas, dividindo-as em partes menores e mais legíveis. <br><br>
+    - A principal diferença entre subconsultas e CTEs é a forma como são estruturadas e como são referenciadas na consulta principal. As CTEs são mais explícitas e nomeadas, tornando o código mais legível, enquanto as subconsultas são incorporadas diretamente na consulta principal.<br><br>
+    <img width="890" height="480" src="https://github.com/MateusMalvezzi/SQL_Portfolio/blob/main/CommonTableExpression/results/Subquery_vs_CTE.png"><br><br><br>
