@@ -1,7 +1,7 @@
 **Neste repositorio, compartilharei meus estudos sobre SQL.** <br>
 **In this repository, I will share my studies on SQL. <br> At this moment, I won't do everything in English because all the commits and information were made in my mother tongue, Portuguese. But, we can talk in English too.** <br><br>
 
-**Meus estudos, foram dividos em módulos, e aqui trarei o resumo que poderá ser acessado ao entrar na pasta específica.**<br><br>
+**Meus estudos, foram divididos em módulos, e aqui trarei o resumo que poderá ser acessado ao entrar na pasta específica.**<br><br>
 
 Ao clicar em 'CTRL' + clique do mouse ao mesmo tempo, você consegue abrir uma nova aba em seu navegador e manter esta aberta.
 
